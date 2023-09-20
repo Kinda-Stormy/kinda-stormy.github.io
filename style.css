@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+  }
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(Fonts/Inter/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Inter-Med;
+    src: url(Fonts/Inter/static/Inter-Medium.ttf);
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(74, 141, 180), rgb(168, 139, 201));
+    height: 100%;
+    margin: 3%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Inter;
+    font-size: 45px;
+    color:rgb(36, 34, 37);
+}
+
+p {
+    font-family: Inter-Med;
+    font-size: 24px;
+    margin: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    color:rgb(36, 34, 37);
+}
+
+a {
+    color:rgb(36, 34, 37);
+}
+
+hr {
+    width: 40%;
+    margin: 0;
+    height: 2px;
+    border: none;
+    background-color:#242225;
+}
+
+button {
+    font-size: 32px;
+    border-radius: 30px;
+    font-family: Inter-SemiBold;
+    background-color: transparent;
+    color: rgb(36, 34, 37);
+    margin: 0%;
+    padding: 15px 100px;
+    box-shadow: 0px 10px 35px rgb(84, 80, 87);  
+    border-color: transparent;
+    margin-bottom: 1.5%;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out 100ms
+}
+
+video {
+    border-radius: 20px;
+    box-shadow: 0px 10px 35px rgb(84, 80, 87);
+}
+
+.grid-container {
+    display: grid;
+}
+
+button:hover {
+    background-color: #7164a3;
+  }
+
+.Shadowed {
+    box-shadow: 0px 10px 35px rgb(84, 80, 87);
+    margin-bottom: 1%;
+    border-radius: 8px;
+}
+
+.ShadowedSmall {
+    box-shadow: 0px 10px 35px rgb(84, 80, 87);
+    margin-bottom: 0.5%;
+    border-radius: 12px;
+}
+
+.ShadowedAudio {
+    box-shadow: 0px 10px 35px rgb(84, 80, 87);
+    margin-bottom: 0.5%;
+    border-radius: 35px;
+}
+
+.ShadowedMinimal {
+    box-shadow: 0px 10px 35px rgb(84, 80, 87);
+    margin-top: 0.2%;
+    border-radius: 5px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #8691c0;
+    transition: background-color 0.5s ease-out 100ms
+  }
+
+
+audio::-webkit-media-controls-panel:hover {
+    background-color: #7e7db9;
+}
+
+
+  
+  
