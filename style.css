@@ -26,6 +26,7 @@ body {
 }
 
 h1 {
+    margin-top: 1%;
     font-family: Inter;
     font-size: 45px;
     color:rgb(36, 34, 37);
@@ -38,6 +39,7 @@ p {
     padding-left: 20%;
     padding-right: 20%;
     color:rgb(36, 34, 37);
+    line-height: 140%;
 }
 
 a {
@@ -52,11 +54,25 @@ hr {
     background-color:#242225;
 }
 
+.div_audio {
+    padding: 2%;
+    width: fit-content;
+    margin: 2%;
+    box-shadow: 0px 10px 35px rgb(84, 80, 87);
+    background-color: rgba(255,255,250,.1);
+    border-radius: 75px;
+    transition: background-color 0.5s ease-out 100ms
+}
+
+.div_audio:hover {
+    background-color: rgba(255,255,250,.3);
+}
+
 button {
     font-size: 32px;
     border-radius: 30px;
     font-family: Inter-SemiBold;
-    background-color: transparent;
+    background-color: rgba(255,255,250,.2);
     color: rgb(36, 34, 37);
     margin: 0%;
     padding: 15px 100px;
@@ -71,13 +87,10 @@ video {
     border-radius: 20px;
     box-shadow: 0px 10px 35px rgb(84, 80, 87);
 }
-
-.grid-container {
-    display: grid;
-}
+ 
 
 button:hover {
-    background-color: #7164a3;
+    background-color: rgba(255,255,250,.5);
   }
 
 .Shadowed {
@@ -96,6 +109,7 @@ button:hover {
     box-shadow: 0px 10px 35px rgb(84, 80, 87);
     margin-bottom: 0.5%;
     border-radius: 35px;
+    margin-bottom: 2%;
 }
 
 .ShadowedMinimal {
@@ -105,14 +119,10 @@ button:hover {
 }
 
 audio::-webkit-media-controls-panel {
-    background-color: #8691c0;
-    transition: background-color 0.5s ease-out 100ms
+    color: #fff;
+    background-color: rgba(255,255,250,.2);
   }
 
-
-audio::-webkit-media-controls-panel:hover {
-    background-color: #7e7db9;
-}
 
 
   
