@@ -78,11 +78,7 @@ hr {
     box-shadow: 0px 10px 35px rgb(84, 80, 87);
     background-color: rgba(255,255,250,.1);
     border-radius: 30px;
-    transition: background-color 0.5s ease-out 100ms
-}
-
-.div_audio:hover {
-    background-color: rgba(255,255,250,.3)
+    transition: width 0.5s;
 }
 
 button {
@@ -120,13 +116,13 @@ iframe {
     box-shadow: 0px 10px 35px rgb(84, 80, 87);
 }
 
+
 video {
     border-radius: 20px;
     width: 240px;
     box-shadow: 0px 10px 35px rgb(84, 80, 87);
 }
  
-
 button:hover {
     background-color: rgba(255,255,250,.5);
   }
@@ -155,10 +151,6 @@ button:hover {
     border-radius: 5px;
 }
 
-audio::-webkit-media-controls-panel {
-    color: #fff;
-    background-color: rgba(255,255,250,.2);
-  }
-
-  
-  
+webkit-media-controls-panel {
+    background-color: #242225;
+}
