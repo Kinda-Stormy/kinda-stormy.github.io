@@ -39,10 +39,6 @@ iframe {
     width: 70%;
 }
 
-.bonk img:hover {
-    content:url(https://cdn.discordapp.com/attachments/1014249566176022590/1155199002019643473/New_Piskel15.png);
-}
-
 .grid-container {
     margin-right: 1.5%;
     margin-top: 2%;
@@ -109,6 +105,7 @@ button {
     cursor: pointer;
     transition: background-color 0.5s;
     color: white;
+    display: flex;
 }
 
 
